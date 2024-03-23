@@ -3,14 +3,14 @@ A script to create a calendar file (ics) from library account data (Köln, Kreuz
 
 (English below)
 
-Das Skript (siehe LibraryCalendar.ipynb) ermöglicht es
-- sich nacheinander in mehrere Accounts der Bibliothek von Köln und Kreuztal einzuloggen
-- sich die Daten über die ausgeliehenen Medien herunterzuladen
-- Aus den Daten pro Account und Fälligkeitsdatum einen Termin in einer neuen Kalendardatei (ics) zu erstellen
+Das Script (siehe LibraryCalendar.ipynb) ermöglicht es
+- sich nacheinander in mehrere Benutzerkonten der Bibliotheken Köln und Kreuztal einzuloggen
+- die Daten der ausgeliehenen Medien herunterzuladen
+- aus den Daten pro Konto und Fälligkeitsdatum einen Termin in einer neuen Kalendardatei (ics) zu erstellen.
 
-Die Kalendereinträge enthalten Informationen darüber, welche Medien fällig, wie viele Medien verlängerbar sind und wie oft, und das berechnete maximale Fälligkeitsdatum.
+Die Kalendereinträge enthalten Informationen darüber, welche Medien fällig sind, wie viele Medien wie oft verlängert werden können und das berechnete maximale Fälligkeitsdatum.
 
-Die ics-Datei kann dann in einem Kalendarprogramm (Thunderbird, Outlook, etc.) abonniert werden. Mit einem Cronjob kann das Skript z.B. einmal am Tag laufengelassen werden.
+Die ics-Datei kann dann in einem Kalenderprogramm (Thunderbird, Outlook, etc.) abonniert werden. Mit einem Cronjob kann das Skript z.B. einmal täglich ausgeführt werden.
 
 
 (English version)
