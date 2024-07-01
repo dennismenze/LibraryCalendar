@@ -1,11 +1,12 @@
 # LibraryCalendar
-A script to create a calendar file (ics) from library account data (Köln, Kreuztal)
+A script to create a calendar file (ics) from library account data (Köln, Kreuztal, UB Hagen)
 
 (English below)
 
 Das Script (siehe LibraryCalendar.ipynb) ermöglicht es
-- sich nacheinander in mehrere Benutzerkonten der Bibliotheken Köln und Kreuztal einzuloggen
+- sich nacheinander in mehrere Benutzerkonten der Bibliotheken Köln, Kreuztal und UB Hagen einzuloggen
 - die Daten der ausgeliehenen Medien herunterzuladen
+- fällige Medien automatisch zu verlängern
 - aus den Daten pro Konto und Fälligkeitsdatum einen Termin in einer neuen Kalendardatei (ics) zu erstellen.
 
 Die Kalendereinträge enthalten Informationen darüber, welche Medien fällig sind, wie viele Medien wie oft verlängert werden können und das berechnete maximale Fälligkeitsdatum.
@@ -16,8 +17,9 @@ Die ics-Datei kann dann in einem Kalenderprogramm (Thunderbird, Outlook, etc.) a
 (English version)
 
 The script (see LibraryCalendar.ipynb) allows you to
-- log in to several library accounts in Cologne and Kreuztal one after the other
+- log in to several library accounts in Cologne, Kreuztal and UB Hagen one after the other
 - download the data of the borrowed media
+- automatically renew due media
 - Create an event in a new calendar file (ics) for each account and due date.
 
 The calendar entries contain information about which items are due, how many items can be renewed and how often, and the calculated maximum due date.
